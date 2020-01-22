@@ -1,0 +1,207 @@
+body {
+	height: 100vh;
+	overflow-x: hidden !important;
+}
+.main-container {
+	font-size: 18px;
+	font-family: Arial;
+	max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+.grey {
+	background-color: #F2F1EF;
+}
+.header {
+	/*display: block;*/
+	align-items: center;
+	max-width: 1060px;
+	padding-top: 20px;
+	margin: auto;
+	display: flex;
+}
+.left {
+	flex: 1;
+}
+.right {
+	flex: 1;
+	padding-left: 120px;
+}
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+li a {
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  color: red;
+  text-decoration: underline red;
+  cursor: pointer;
+}
+button.call {
+	border: 1px solid red;
+	color: red;
+	background-color: #F2F1EF;
+	padding: 10px 40px;
+}
+.first-container {
+	background-image: url("./images/dmitry_alekseev.png");
+	width: 100%;
+	background-size: contain;
+	height: 550px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 1060px;
+	margin: auto;
+	padding-left: 30px;
+}
+button.red {
+	background-color: red;
+	color: white;
+	padding: 10px 40px;
+	border: 1px solid red;
+}
+p {
+	color: grey;
+	margin-top: 0px;
+}
+.child-container {
+	margin: auto;
+	max-width: 1060px;
+	text-align: center;
+	padding: 50px;
+}
+.skills {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 70px;
+	margin-top: 70px;
+}
+.skills > * {
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+img {
+	max-width: 99%;
+}
+.portfolio {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	flex-wrap: wrap;
+}
+.portfolio > * {
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-right: 10px;
+}
+.fourth-container {
+	background-color: red;
+	padding: 50px;
+}
+.price {
+	margin: auto;
+	max-width: 1060px;
+	text-align: left;
+	color: white;
+	padding-left: 300px;
+}
+.list {
+	list-style-type: none;
+	display: block;
+	color: grey;
+}
+.list li {
+	padding: 5px;
+}
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1060px;
+	margin: auto;
+	padding: 50px;
+}
+.footer > * {
+	flex: 1;
+}
+p {
+	padding: 10px;
+}
+span {
+	padding: 0px 20px;
+}
+.icons > * {
+	padding: 10px 10px 10px 0px;
+	align-items: center;
+	margin-top: 10px;
+}
+.contact {
+	padding-bottom: 25px;
+}
+.last-container {
+	background-color: #1f122c;
+	text-align: center;
+	padding: 20px;
+}
+@media screen and (max-width: 600px) {
+  ul.sidenav  {
+    display: block;
+  }
+  .left, .right {
+  	display: block;
+  	text-align: center;
+  	align-items: center;
+  	padding-top: 10px;
+  	padding-left: 0px;
+  }
+  .first-container {
+  	background-position: center bottom -70px;
+  	text-align: center;
+  }
+  .header, .first-container,
+   .child-container, .price, .footer {
+  	max-width: 100%;
+  	display: block;
+  	padding-top: 5px;
+  	margin: auto;
+  	align-items: center;
+  }
+  .portfolio, .skills {
+  	display: block;
+  	width: 100%;
+  	margin: auto;
+  	padding-top: 0px;
+  }
+  .portfolio > * {
+  	margin: auto;
+  	margin-right: 30%;
+  }
+  .price {
+  	padding-left: 0px;
+  }
+   body {
+        overflow-x: hidden !important;
+    }
+    .main-container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+}
+
